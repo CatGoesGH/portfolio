@@ -1,0 +1,20 @@
+:root {
+  --ink: #111111;
+  --paper: #f3f2ee;
+  --paper-dark: #dedcd5;
+  --electric: #d9ff4e;
+  --lavender: #c8bbff;
+  --blue: #9cc4dc;
+  --coral: #f1816d;
+  --muted: #67655f;
+  --line: rgba(17, 17, 17, 0.18);
+  --sans: "DM Sans", Arial, sans-serif;
+  --mono: "DM Mono", monospace;
+  --radius: 18px;
+  --shell: min(1280px, calc(100vw - 48px));
+  --shadow: 0 18px 45px rgba(17, 17, 17, 0.11);
+}
+
+@media (max-width: 640px) {
+  :root { --shell: min(100% - 32px, 1280px); }
+}
