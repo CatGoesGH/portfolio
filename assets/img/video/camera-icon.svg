@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" role="img" aria-label="Vintage film camera icon with a side reel">
+  <g fill="none" stroke="#f1cf98" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- reel -->
+    <circle cx="46" cy="46" r="34" />
+    <circle cx="46" cy="46" r="7" fill="#f1cf98" stroke="none" />
+    <circle cx="46" cy="24" r="6" />
+    <circle cx="66" cy="58" r="6" />
+    <circle cx="26" cy="58" r="6" />
+    <!-- camera body -->
+    <rect x="60" y="60" width="120" height="80" rx="8" />
+    <!-- lens -->
+    <circle cx="120" cy="100" r="26" />
+    <circle cx="120" cy="100" r="14" />
+    <!-- viewfinder -->
+    <rect x="150" y="40" width="26" height="20" rx="3" />
+    <line x1="163" y1="60" x2="163" y2="72" />
+    <!-- film reel back -->
+    <circle cx="172" cy="76" r="14" />
+    <circle cx="172" cy="76" r="4" fill="#f1cf98" stroke="none" />
+  </g>
+</svg>

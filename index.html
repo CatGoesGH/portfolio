@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,500..800;1,9..144,500..700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/tokens.css" />
@@ -24,43 +24,47 @@
 
     <div class="page-noise" aria-hidden="true"></div>
 
-    <header class="site-header shell">
-      <a class="wordmark" href="#top" aria-label="Caitlyn Tan, home">CT<span>®</span></a>
-      <nav aria-label="Primary navigation">
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <a class="header-status" href="#contact">
-        <span class="status-dot"></span>
-        Available for opportunities
-      </a>
-    </header>
+    <div class="hero-frame shell">
+      <header class="site-header">
+        <a class="header-status" href="#contact">
+          <span class="status-dot"></span>
+          Available for new projects
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="#work">Work <span class="nav-count" id="nav-work-count"></span></a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button button-dark header-cta" href="mailto:caitlynrtan@gmail.com">Let's talk <span>↗</span></a>
+      </header>
 
-    <main id="main-content">
-      <section id="top" class="hero shell">
+      <section id="top" class="hero">
         <div class="hero-meta reveal">
-          <p>Undergraduate designer</p>
-          <p>Waterloo, Ontario</p>
+          <p>Portfolio / 2026</p>
         </div>
 
         <div class="hero-heading reveal">
-          <p class="eyebrow">Portfolio / 2026</p>
-          <h1><span>CAITLYN</span><span>TAN<span class="outlined">.</span></span></h1>
+          <h1><span class="outlined">CAITLYN</span><span>TAN</span></h1>
         </div>
 
         <div class="hero-bottom reveal">
-          <p class="hero-intro">
-            I design clear, considered experiences—and tell the stories that make
-            them matter.
-          </p>
-          <a class="button button-dark" href="#work">Explore selected work <span>↘</span></a>
+          <div class="hero-role">
+            <p class="role-eyebrow">Marketer · Content Creator · UI/UX Designer</p>
+            <p class="hero-intro">
+              I design clear, considered experiences—and tell the stories that make
+              them matter.
+            </p>
+            <a class="button button-dark" href="#work">Let's collaborate <span>↗</span></a>
+          </div>
+          <div class="hero-socials">
+            <a href="mailto:caitlynrtan@gmail.com">Email <span>↗</span></a>
+            <a href="https://www.linkedin.com/in/caitlynrtan/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          </div>
         </div>
-
-        <div class="hero-orbit orbit-one" aria-hidden="true"></div>
-        <div class="hero-orbit orbit-two" aria-hidden="true"></div>
-        <div class="hero-stamp" aria-hidden="true"><span>UX</span><span>UI</span><span>VISUAL</span></div>
       </section>
+    </div>
+
+    <main id="main-content">
 
       <section id="work" class="work-section shell section-space">
         <div class="section-heading reveal">
@@ -76,7 +80,7 @@
             <button class="filter is-active" type="button" data-filter="all">All work</button>
             <button class="filter" type="button" data-filter="product">Product</button>
             <button class="filter" type="button" data-filter="content">Content</button>
-            <button class="filter" type="button" data-filter="video">Video</button>
+            <button class="filter" type="button" data-filter="film">Film</button>
           </div>
           <p id="project-count" class="project-count" aria-live="polite"></p>
         </div>
@@ -90,10 +94,22 @@
           <div class="about-copy reveal">
             <h2>A human-centred lens for digital products and visual communication.</h2>
             <p>
-              I’m Caitlyn, an undergraduate designer who enjoys finding the useful
-              idea inside a complex brief. My approach pairs research and systems
-              thinking with a visual eye—whether I’m mapping a user flow, refining
-              an interface, or editing a story for social.
+              Hello, I’m Caitlyn, a fourth-year Global Business and Digital Arts
+              student at the University of Waterloo. I’ve always been curious
+              about how people interact with the world around them, which is
+              what drew me to the world of business, design, and technology.
+            </p>
+            <p>
+              I also love being involved in community and creating experiences
+              that bring people together, whether that’s helping organize an
+              event, promoting a greater cause, or simply finding ways to make
+              people feel welcome and connected.
+            </p>
+            <p>
+              Outside of school and work, I love travelling, badminton,
+              volleyball, and trying new things. You’ll usually find me playing
+              Teamfight Tactics, trying a recipe I saw on social media, or
+              spending time with my two cats.
             </p>
             <a class="text-link" href="mailto:caitlynrtan@gmail.com">Start a conversation <span>↗</span></a>
           </div>
